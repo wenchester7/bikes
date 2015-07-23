@@ -1,0 +1,325 @@
+body{
+	background:url(images/background-bike.jpg) no-repeat;
+	background-size:100%;
+}
+#wrapper{
+	position:relative;
+	background-color:white;
+	width:80%;
+	height:90%;
+	margin:20px auto 20px auto;
+}
+#logo{
+	position:absolute;
+	z-index:2;
+	opacity:0.1;
+	top:6px;
+	left:1px;
+}
+#navigation{
+	background-color:#181818;
+	width:100%;
+	height:5%;
+	position:absolute;
+
+}
+#navigation li{
+	display:inline;
+	color:white;
+	left:355px;
+	width:300px;
+	position:relative;
+	padding-left:22px;
+	
+}
+#navigation li a {
+	color:white;
+	list-style-type:none;
+	text-decoration:none;
+	position:relative;
+	top:10px;
+}
+#navigation  li a:hover{
+	background-color:#8f746c;
+	padding:5px;
+	border-radius:6px;
+	top:10px;
+}
+
+#header {
+	background:url('images/top.jpg') no-repeat;
+	background-size: 1067px 660px;
+	height:680px;
+	width:1067px;
+	position:relative;
+	top:69px;
+}
+#header h1{
+	width:550px;
+	height:220px;
+	font-size:50px;
+	position:relative;
+	left:300px;
+	top:172px;
+	color:white;
+}
+#podnav #img1{
+	position:absolute;
+	z-index:1;
+	border:5px solid white;
+	left:300px;
+	top:592px;
+}
+#podnav #img2{
+	position:absolute;
+	z-index:1;
+	border:5px solid white;
+	left:430px;
+	top:592px;
+}
+#podnav #img3{
+	position:absolute;
+	z-index:1;
+	border:5px solid white;
+	left:590px;
+	top:592px;
+}
+#podnav #img1:hover{
+	border-color:#8f746c;
+}
+#podnav #img2:hover{
+	border-color:#8f746c;
+}
+#podnav #img3:hover{
+	border-color:#8f746c;	
+}
+
+#mainbike{
+	position:absolute;
+	top:772px;
+	left:20px;
+	z-index:2;
+}
+#mainbike img{
+	width:500px;
+	height:300px;
+}
+#mainbike #bestseller{
+	position:absolute;
+	top:8px;
+	
+}
+img#bestseller{
+	width:140px;
+	height:120px;
+}
+#box{
+	position:absolute;
+	top:730px;
+	left:558px;
+	width:509px;
+	height:350px;
+	background-color:#ddd4d1;
+	z-index:1;
+}
+#box h3{
+	position:relative;
+	left:40px;
+	top:30px;
+	font-size:25px;
+	font-family:Times New Roman;
+}
+#box p{
+	position:relative;
+	top:10px;
+	left:40px;
+	font-size:17px;
+	font-family:Times New Roman serif;
+	color:#a8938c;
+}
+#box h2{
+	position:relative;
+	font-family:Times New Roman;
+	font-size:60px;
+	left:40px;
+	top:3px;
+	margin-top:28px;
+	margin-bottom:0;
+}
+#box button{
+	color:#987f77;
+	border:3px solid #987f77;
+	background-color:#e6ddda;
+	width:200px;
+	height:50px;
+	position:relative;
+	left:40px;
+	top:4px;
+}
+#box button:hover{
+	border:3px solid black;
+	color:black;
+}
+#box p#question1{
+	color:black;
+	position:relative;
+	top:56px;
+	left:40px;
+	width:220px;
+	margin-top:10px;
+	margin-bottom:0;
+}
+#question1 a{
+	text-decoration:none;
+	color:#a9938c;
+}
+#question1 a:hover{
+	color:black;
+}
+#bikes_menu{
+	position:relative;
+	width:100%;
+	height:800px;
+	margin-top:10px;
+	top:450px;	
+}
+#secondbox {
+	position:absolute;
+	float:left;
+	width:300px;
+	height:200px;
+	left:40px;
+	
+	z-index:1;
+}
+#thirdbox {
+	position:absolute;
+	float:left;
+	width:300px;
+	height:200px;
+	left:280px;
+	
+	z-index:1;
+}
+#fourbox{
+	position:absolute;
+	float:right;
+	width:250px;
+	height:160px;
+	right:280px;
+	
+	z-index:1;
+}
+#five{
+	position:relative;
+	float:right;
+	width:200px;
+	height:160px;
+	
+	right:61px;
+	z-index:1;
+}
+/* pictures for bikes*/
+#secondbox img{
+	position:relative;
+	width:220px;
+	height:160px;
+	top:10px;
+}
+#thirdbox img{
+	width:220px;
+	height:160px;
+	position:relative;
+	top:10px;
+}
+#fourbox img{
+	width:220px;
+	height:160px;
+	position:relative;
+	top:10px;
+}
+
+#five img{
+	position:relative;
+	top:10px;
+	height:160px;
+	width:220px;
+}
+/* buttons for pictures of biukes*/
+#secondbox button{
+	border:1px solid brown;
+	color:brown;
+	font-size:15px;
+	background-color:Transparent;
+	width:200px;
+	height:20px;
+}
+#thirdbox button{
+	border:1px solid brown;
+	color:brown;
+	font-size:15px;
+	background-color:Transparent;
+	width:200px;
+	height:20px;
+}
+#fourbox button{
+	border:1px solid brown;
+	color:brown;
+	font-size:15px;
+	background-color:Transparent;
+	width:200px;
+	height:20px;
+}
+#five button{
+	border:1px solid brown;
+	color:brown;
+	font-size:15px;
+	background-color:Transparent;
+	width:200px;
+	height:20px;
+}
+#content2 img {
+	position:relative;
+	bottom:160px;
+	width:1067px;
+	height:490px;
+}
+#content2 button{
+	border:5px solid white;
+	color:white;
+	font-size:20px;
+	background-color:Transparent;
+	width:230px;
+	height:50px;
+	position:relative;
+	left:400px;
+	bottom:380px;	
+}
+
+#content2{
+	position:relative;
+	bottom:5px;
+	height:320px;
+}
+#footer{
+	position:relative;
+	width:1000px;
+	height:40px;
+	
+}
+#footer ul li {
+	
+	display:inline;
+	margin-left:80px;
+	font-size:10px;
+	padding-left:15px;	
+	}
+#footer ul li a {
+	text-decoration:none;
+	color:black;
+	font-size:11px;
+}
+#footer ul li a:hover{
+	color:black;
+	text-shadow:9px 3px 8px;
+}
